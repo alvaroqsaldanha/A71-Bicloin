@@ -1,0 +1,142 @@
+balance
+balance
+top-up 10
+move 38.7369 -9.1366
+bike-up ista
+move 38.7633 -9.0950
+bike-down ocea
+balance
+info istt
+scan 4
+scan 5
+move 38.7376 -9.1545
+bike-up gulb
+balance
+ping
+move 38.6972 -9.2064
+bike-up jero
+bike-down istt
+bike-down jero
+balance
+ping
+sys_status
+info ista
+top-up 30
+top-up 5
+balance
+move 38.7369 -9.1366
+bike-up ista
+move 38.7376 -9.1545
+bike-down gulb
+ping
+sys_status
+scan 1
+scan 10
+info cate
+balance
+move 38.7097 -9.1336
+bike-down cate
+bike-up cate
+move 38.6972 -9.2064
+bike-down jero
+balance
+top-up 5
+ping
+sys_status
+move 38.7369 -9.1366
+bike-up ista
+move 38.7633 -9.0950
+bike-down ocea
+balance
+top-up 15
+balance
+move 38.7369 -9.1366
+bike-up ista
+move 38.7376 -9.1545
+bike-down gulb
+balance
+info istt
+scan 10
+move 38.7369 -9.1366
+bike-up ista
+move 38.7633 -9.0950
+bike-down ocea
+balance
+move 38.7369 -9.1366
+bike-up ista
+move 38.7633 -9.0950
+bike-down ocea
+balance
+info istt
+scan 4
+scan 5
+move 38.7376 -9.1545
+bike-up gulb
+balance
+ping
+move 38.6972 -9.2064
+bike-up jero
+bike-down istt
+bike-down jero
+balance
+ping
+sys_status
+info ista
+top-up 30
+top-up 5
+balance
+move 38.7369 -9.1366
+bike-up ista
+move 38.7376 -9.1545
+bike-down gulb
+ping
+sys_status
+scan 1
+scan 10
+info cate
+balance
+move 38.7060 -9.1441
+bike-down cais
+bike-up cais
+move 38.6972 -9.2064
+bike-down jero
+balance
+top-up 5
+move 38.7369 -9.1366
+bike-up ista
+move 38.7633 -9.0950
+bike-down ocea
+info istt
+info ista
+scan 3
+scan 5
+balance
+top-up 3
+balance
+bike-up ocea
+move 38.6972 -9.2064
+bike-down jero
+sys_status
+balance
+ping
+info cate
+info jero
+info gulb
+bike-up jero
+move 38.7633 -9.0950
+bike-down ocea
+balance
+scan 6
+info ocea
+top-up 5
+balance
+top-up 15
+bike-up gulb
+move 38.7633 -9.0950
+bike-down ocea
+top-up 5
+sys_status
+info ocea
+bike-up ocea
+bike-down ocea
+info gulb

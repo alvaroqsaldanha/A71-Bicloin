@@ -1,0 +1,108 @@
+//
+// Protocol buffers definition
+//
+syntax = "proto3";
+package pt.tecnico.bicloin.hub.grpc;
+
+//-----------------------------------------------
+
+message CtrlPingRequest {
+  string input = 1;
+}
+
+message CtrlPingResponse {
+	string output = 1;
+}
+
+//-----------------------------------------------
+
+message BalanceRequest{
+	string username = 1;
+}
+
+message BalanceResponse{
+	int32 balance = 1;
+}
+
+//-----------------------------------------------
+
+message TopUpRequest{
+	string username = 1;
+	int32 amount = 2;
+	string phonenumber = 3;
+}
+
+message TopUpResponse{
+	int32 balance = 1;
+}
+
+//-----------------------------------------------
+
+message InfoStationRequest{
+	string station = 1;
+}
+
+message InfoStationResponse{
+	string statistics = 1;
+}
+
+//-----------------------------------------------
+
+message LocateStationRequest{
+	string latitude = 1;
+	string longitude = 2;
+	int32 numberOfStations = 3;
+}
+
+message LocateStationResponse{
+	string stations = 1;
+}
+
+//-----------------------------------------------
+
+message BikeUpRequest{
+	string latitude = 1;
+	string longitude = 2;
+	string name = 3;
+	string station = 4;
+}
+
+message BikeUpResponse{
+	string confirmation = 1;
+}
+
+//-----------------------------------------------
+
+message BikeDownRequest{
+	string latitude = 1;
+	string longitude = 2;
+	string name = 3;
+	string station = 4;
+}
+
+message BikeDownResponse{
+	string confirmation = 1;
+}
+
+//-----------------------------------------------
+
+message SysStatusRequest{
+
+}
+
+message SysStatusResponse{
+	string response = 1;
+}
+
+
+  
+service HubService {
+  rpc Ping(CtrlPingRequest) returns (CtrlPingResponse);
+  rpc Balance(BalanceRequest) returns (BalanceResponse);
+  rpc top_up(TopUpRequest) returns (TopUpResponse);
+  rpc Info_station(InfoStationRequest) returns (InfoStationResponse);
+  rpc Locate_station(LocateStationRequest) returns (LocateStationResponse);
+  rpc Bike_up(BikeUpRequest) returns (BikeUpResponse);
+  rpc Bike_down(BikeDownRequest) returns (BikeDownResponse);
+  rpc Sys_status(SysStatusRequest) returns (SysStatusResponse);
+}

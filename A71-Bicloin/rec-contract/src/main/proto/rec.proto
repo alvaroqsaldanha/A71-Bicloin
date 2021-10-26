@@ -1,0 +1,50 @@
+//
+// Protocol buffers definition
+//
+syntax = "proto3";
+package pt.tecnico.rec.grpc;
+
+// The following option causes top-level messages, enums, and services to be defined at the package level, 
+// rather than inside an outer class named after the .proto file.
+option java_multiple_files = true;
+
+//-------------------------------------------------------
+
+message CtrlPingRequest {
+  string input = 1;
+}
+
+message CtrlPingResponse {
+	string output = 1;
+}
+
+//--------------------------------------------------------
+
+message ReadRequest {
+	string register = 1;
+}
+
+message ReadResponse {
+	string value = 1;
+	string sequenceNumber = 2;
+}
+
+//--------------------------------------------------------
+
+message WriteRequest {
+	string register = 1;
+	string value = 2;
+	string sequenceNumber = 3;
+}
+
+message WriteResponse {
+	string confirmation = 1;
+}
+
+//--------------------------------------------------------
+  
+service RecordService {
+  rpc Ping(CtrlPingRequest) returns (CtrlPingResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Write(WriteRequest) returns (WriteResponse);
+}
