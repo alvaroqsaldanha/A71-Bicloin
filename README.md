@@ -1,10 +1,9 @@
 # A71-Bicloin
-A simulation of a bike rental service focused on reliability and replication, both front(client) and backend(servers) were developed with Java, using GRPC for communication. This is the solution submitted for the project assignment of the curricular unit Distributed Systems of the Computer Engineering Bachelor's degree @ IST. 
+A simulation of a bike rental service focused on reliability and replication, both front (client) and backend (servers) were developed with Java, using GRPC for communication. This is the solution submitted for the project assignment of the curricular unit Distributed Systems of the Computer Engineering Bachelor's degree @ IST. 
 
 # A71-Bicloin
 
 Distributed Systems 2020-2021, 2nd semester project
-
 
 ## Authors
 
@@ -42,7 +41,6 @@ mvn clean install -DskipTests
 ```
 
 The integration tests are skipped because they require theservers to be running.
-
 
 ## Built With
 
