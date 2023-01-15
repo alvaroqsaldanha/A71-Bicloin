@@ -1,17 +1,8 @@
 # Relatório do projeto *Bicloin*
 
-Sistemas Distribuídos 2020-2021, segundo semestre
-
 ## Autores
 
-**Grupo A71**
-
 Álvaro Saldanha, Guilherme Fernandes
-
-| Número | Nome                 | Utilizador                                   | Correio eletrónico                  |
-| -------|----------------------|----------------------------------------------| ------------------------------------|
-| 92416  | Álvaro Saldanha      | <https://git.rnl.tecnico.ulisboa.pt/ist192416> | <alvaro.saldanha@tecnico.ulisboa.pt>   |
-| 92473  | Guilherme Fernandes  | <https://git.rnl.tecnico.ulisboa.pt/ist192473> | <g.mimoso.fernandes@tecnico.ulisboa.pt>     |
 
 ## Melhorias da primeira parte
 
