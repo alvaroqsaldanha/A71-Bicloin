@@ -8,11 +8,11 @@ Group A71
 
 ### Lead developer 
 
-92473 [Guilherme Fernandes](mailto:g.mimoso.fernandes@tecnico.ulisboa.pt)
+[Guilherme Fernandes](mailto:g.mimoso.fernandes@tecnico.ulisboa.pt)
 
 ### Contributors
 
-92416 [Alvaro Saldanha](mailto:alvaro.saldanha@tecnico.ulisboa.pt)
+[Alvaro Saldanha](mailto:alvaro.saldanha@tecnico.ulisboa.pt)
 
 ## About
 
