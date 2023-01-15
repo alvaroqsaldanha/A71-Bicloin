@@ -1,16 +1,5 @@
 # A71-Bicloin
 
-Distributed Systems 2020-2021, 2nd semester project
-
-
-## Authors
-
-**Group A71**
-
-92416 [Alvaro Saldanha](mailto:alvaro.saldanha@tecnico.ulisboa.pt)
-
-92473 [Guilherme Fernandes](mailto:g.mimoso.fernandes@tecnico.ulisboa.pt)
-
 ## Getting Started
 
 The overall system is composed of multiple modules.
